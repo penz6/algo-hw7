@@ -52,13 +52,15 @@ return true at the end
 ```
 
 # Part 5
+Was not totally sure how to do this, I don't think we went over it in class, so I did the best that I could.
 ```
 def addtolist(n):
 	p = index of processors
 	steps = n/p
 	list = []
+	tracker = 0
 	for n in range(steps):
-		give processor p n/steps numbers
+		give processor tracker+=n/steps
 		add to list [last operation, n]
 	# wait for processors to finish
 	return list
