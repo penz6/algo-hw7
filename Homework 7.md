@@ -40,10 +40,27 @@ for key in list:
 L = Solved List
 W = Matrix
 Visted = []
+flag = true
 
-while M != L
-	for verticy in M
-		
-	
+For verticie in L
+	if l can connect to l+1 according to W:
+		do nothing
+	else:
+		return false
+return true at the end
+
+```
+
+# Part 5
+```
+def addtolist(n):
+	p = index of processors
+	steps = n/p
+	list = []
+	for n in range(steps):
+		give processor p n/steps numbers
+		add to list [last operation, n]
+	# wait for processors to finish
+	return list
 
 ```
